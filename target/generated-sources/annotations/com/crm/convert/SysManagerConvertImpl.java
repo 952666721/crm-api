@@ -9,13 +9,8 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-<<<<<<< HEAD
-    date = "2025-10-16T18:47:28+0800",
+    date = "2025-10-19T16:40:27+0800",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 21.0.8 (Oracle Corporation)"
-=======
-    date = "2025-10-12T19:15:38+0800",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
->>>>>>> d4781356a7026b904305512f8783133d839cfcec
 )
 public class SysManagerConvertImpl implements SysManagerConvert {
 

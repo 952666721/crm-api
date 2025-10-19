@@ -1,0 +1,2 @@
+# 忽略 Maven/Gradle 构建目录
+target/
