@@ -49,4 +49,9 @@ public interface CustomerService extends IService<Customer> {
      * @param idQuery
      */
     void customerToPublicPool(IdQuery idQuery);
+    /**
+     *领取客户
+     * @param idQuery
+     */
+    void publicPoolToPrivate(IdQuery idQuery);
 }

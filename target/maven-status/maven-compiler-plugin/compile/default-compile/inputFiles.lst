@@ -33,6 +33,7 @@ D:\crm\crm-api\src\main\java\com\crm\controller\RoleMenuController.java
 D:\crm\crm-api\src\main\java\com\crm\controller\SysManagerController.java
 D:\crm\crm-api\src\main\java\com\crm\controller\SysMenuController.java
 D:\crm\crm-api\src\main\java\com\crm\controller\SysRoleController.java
+D:\crm\crm-api\src\main\java\com\crm\controller\UserController.java
 D:\crm\crm-api\src\main\java\com\crm\convert\CustomerConvert.java
 D:\crm\crm-api\src\main\java\com\crm\convert\SysManagerConvert.java
 D:\crm\crm-api\src\main\java\com\crm\convert\SysMenuConvert.java
@@ -165,6 +166,7 @@ D:\crm\crm-api\src\main\java\com\crm\vo\FileUrlVO.java
 D:\crm\crm-api\src\main\java\com\crm\vo\IdVO.java
 D:\crm\crm-api\src\main\java\com\crm\vo\SysAccountLoginVO.java
 D:\crm\crm-api\src\main\java\com\crm\vo\SysCaptchaVO.java
+D:\crm\crm-api\src\main\java\com\crm\vo\SysLoginResultVO.java
 D:\crm\crm-api\src\main\java\com\crm\vo\SysManagerVO.java
 D:\crm\crm-api\src\main\java\com\crm\vo\SysMenuVO.java
 D:\crm\crm-api\src\main\java\com\crm\vo\SysRoleVO.java

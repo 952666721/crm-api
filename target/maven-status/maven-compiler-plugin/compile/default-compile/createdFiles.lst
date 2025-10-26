@@ -1,6 +1,8 @@
 com\crm\converter\CustomerSourceConverter.class
+com\crm\controller\UserController.class
 com\crm\convert\CustomerConvert.class
 com\crm\vo\SysManagerVO.class
+com\crm\vo\SysLoginResultVO.class
 com\crm\enums\FollowUpStatusEnum.class
 com\crm\query\CustomerQuery.class
 com\crm\enums\CustomerSourceEnum.class
