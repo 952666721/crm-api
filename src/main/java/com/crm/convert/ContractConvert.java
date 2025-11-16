@@ -9,13 +9,23 @@ import org.mapstruct.factory.Mappers;
 
 import java.util.List;
 
+//@Mapper
+//public interface ContractConvert {
+//    ContractConvert INSTANCE = Mappers.getMapper(ContractConvert.class);
+//
+//    Contract convert(ContractVO contractVO);
+//
+//    ProductVO convertToProductVO(ContractProduct contractProduct);
+//
+//    List<ProductVO> convertToProductVOList(List<ContractProduct> contractProductList);
+//}
 @Mapper
 public interface ContractConvert {
     ContractConvert INSTANCE = Mappers.getMapper(ContractConvert.class);
 
-    Contract convert(ContractVO contractVO);
+    Contract toContract(ContractVO contractVO);
 
-    ProductVO convertToProductVO(ContractProduct contractProduct);
+    ProductVO toProductVO(ContractProduct product);
 
-    List<ProductVO> convertToProductVOList(List<ContractProduct> contractProductList);
+    List<ProductVO> toProductVOList(List<ContractProduct> productList);
 }
