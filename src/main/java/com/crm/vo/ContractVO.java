@@ -78,5 +78,8 @@ public class ContractVO {
     @JsonFormat(pattern = DateUtils.DATE_PATTERN)
     private LocalDate endTime;
 
+    // 新增：创建人信息
+    private String createrNickname; // 销售昵称（sys_manager.nickname）
+    private String createrEmail; // 销售邮箱（sys_manager.email）
     List<ProductVO> products;
 }
